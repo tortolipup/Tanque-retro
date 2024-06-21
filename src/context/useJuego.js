@@ -148,7 +148,7 @@ export const JuegoProvider = ({ children }) => {
         }
     };
 
-    useEffect(() => {
+    useEffect(() => { 
         //por alguna razon, alturaPlataforma no se actualizaba solo en la funcion disparar, por eso hice esta chanchada
         alturaPlataformaRef.current = alturaPlataforma;
     }, [alturaPlataforma]);
