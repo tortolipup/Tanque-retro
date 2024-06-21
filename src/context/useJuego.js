@@ -247,6 +247,7 @@ export const JuegoProvider = ({ children }) => {
 
                 // Establecer el estado de colisión
                 setHaColisionado(true);
+                setBala(null);
                 return;
             }
 
