@@ -1,0 +1,126 @@
+.contenedor-juego {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.escenario {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  background-color: #000;
+}
+
+.plataforma {
+  fill: #0f0;
+  stroke-width: 0px;
+  stroke: #0f0;
+}
+.montaña{
+  fill: #0f0;
+  stroke-width: 2px;
+  stroke: #0f0;
+}
+
+.tanque {
+  fill: #0f0;
+}
+
+.canon {
+  stroke: #000;
+  stroke-width: 5px;
+}
+
+.canon.activo {
+  stroke: #0f0;
+  stroke-width: 3px;
+}
+
+.viento {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+    font-size: 40px;
+  }
+  .tecla {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    color: #000;
+    font-size: 40px;
+  }
+
+
+.direccion-viento {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.botones {
+  position: absolute;
+  margin-top: 10px;
+  top: 50px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.bala{
+  stroke: #0f0;
+  fill: #0f0;
+}
+
+.impacto{
+  stroke: #f73535;
+  fill: #f73535;
+}
+
+.juego-nuevo{
+  position: absolute;
+  bottom: 10px;
+  width: 20%;
+  background-color: #fff;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup-content h2 {
+  margin: 0 0 10px 0;
+}
+
+.popup-content button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-content button:hover {
+  background-color: #0056b3;
+}
+
