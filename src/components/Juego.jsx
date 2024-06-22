@@ -131,21 +131,6 @@ const Juego = () => {
 
   return (
     <div className="contenedor">
-      {/* <div className="botones">
-        <div>
-          <span>Turno del jugador {turno + 1}</span>
-          <button onClick={() => sortearViento()}>Sortear Viento</button>
-          <button onClick={() => sortearEscenario()}>Sortear Escenario</button>
-          <button onClick={() => disparar()} disabled={!puedeDisparar}>
-            Disparar
-          </button>
-          <button onClick={() => juegoNuevo()}>Juego Nuevo</button>
-        </div>
-        <div>
-          <span>Ángulo: {canones[turno].angulo}°</span>
-          <span>Fuerza: {canones[turno].fuerza}</span>
-        </div>
-      </div> */}
       <div className="viento">
         <span>{formatearViento(viento)}</span>
       </div>
