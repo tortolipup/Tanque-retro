@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tanque-retro/static/css/main.06795c6e.css",
-    "main.js": "/tanque-retro/static/js/main.885b9d69.js",
+    "main.css": "/tanque-retro/static/css/main.585b1b75.css",
+    "main.js": "/tanque-retro/static/js/main.28dd50a5.js",
     "static/js/453.2c1cdf51.chunk.js": "/tanque-retro/static/js/453.2c1cdf51.chunk.js",
     "static/media/disparo.mp3": "/tanque-retro/static/media/disparo.e7eec345c301d7aee2d7.mp3",
     "static/media/colisionPropia.mp3": "/tanque-retro/static/media/colisionPropia.f28d3e7fa9719315e1c0.mp3",
@@ -9,12 +9,12 @@
     "static/media/colisionEnemigo.mp3": "/tanque-retro/static/media/colisionEnemigo.35b8bb73b61a13c45768.mp3",
     "static/media/mover.mp3": "/tanque-retro/static/media/mover.f3ef25c9e267cda397c7.mp3",
     "index.html": "/tanque-retro/index.html",
-    "main.06795c6e.css.map": "/tanque-retro/static/css/main.06795c6e.css.map",
-    "main.885b9d69.js.map": "/tanque-retro/static/js/main.885b9d69.js.map",
+    "main.585b1b75.css.map": "/tanque-retro/static/css/main.585b1b75.css.map",
+    "main.28dd50a5.js.map": "/tanque-retro/static/js/main.28dd50a5.js.map",
     "453.2c1cdf51.chunk.js.map": "/tanque-retro/static/js/453.2c1cdf51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06795c6e.css",
-    "static/js/main.885b9d69.js"
+    "static/css/main.585b1b75.css",
+    "static/js/main.28dd50a5.js"
   ]
 }
