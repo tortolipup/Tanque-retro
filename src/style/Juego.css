@@ -18,7 +18,7 @@
   stroke-width: 0px;
   stroke: rgb(0, 120, 0);
 }
-.montaña{
+.montaña {
   fill: rgb(0, 120, 0);
   stroke-width: 2px;
   stroke: rgb(0, 120, 0);
@@ -39,22 +39,13 @@
 }
 
 .viento {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translate(-50%);
-    color: #fff;
-    font-size: 40px;
-  }
-  .tecla {
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translate(-50%);
-    color: #000;
-    font-size: 40px;
-  }
-
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  color: #fff;
+  font-size: 40px;
+}
 
 .direccion-viento {
   font-size: 24px;
@@ -69,17 +60,17 @@
   background-color: #fff;
 }
 
-.bala{
+.bala {
   stroke: rgb(0, 120, 0);
   fill: rgb(0, 120, 0);
 }
 
-.impacto{
+.impacto {
   stroke: rgb(0, 120, 0);
   fill: #000000;
 }
 
-.juego-nuevo{
+.juego-nuevo {
   position: absolute;
   bottom: 10px;
   width: 20%;
@@ -124,4 +115,3 @@
 .popup-content button:hover {
   background-color: #0056b3;
 }
-

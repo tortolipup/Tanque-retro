@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "../style/Juego.css";
 
 import { useJuego } from "../context/useJuego";
@@ -14,7 +14,6 @@ const Juego = () => {
     altoPantalla,
     setAltoPantalla,
     bala,
-    puedeDisparar,
     haColisionado,
     tanqueDerribado,
     montañas,
@@ -22,16 +21,14 @@ const Juego = () => {
     fuerzaMinimaCañon,
     disparar,
     moverBala,
-    sortearEscenario,
     calcularLongitudCanon,
     juegoNuevo,
-    sortearViento,
     alturaPlataforma,
     impacto,
     moverSoundRef,
   } = useJuego();
 
-  const [tecla, setTecla] = useState("");
+
 
   // Manejar el redimensionamiento de la ventana
   const handleResize = () => {
@@ -151,9 +148,6 @@ const Juego = () => {
       </div> */}
       <div className="viento">
         <span>{formatearViento(viento)}</span>
-      </div>
-      <div className="tecla">
-        <span>{tecla}</span>
       </div>
 
       <svg
