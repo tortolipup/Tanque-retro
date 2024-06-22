@@ -58,12 +58,10 @@ const Juego = () => {
 
   useEffect(() => {
     const handleKeyDown = (event) => {
-    //   setTecla(`tecla: ${event.key} - ${event.code}`);
+      //   setTecla(`tecla: ${event.key} - ${event.code}`);
 
       moverSoundRef.currentTime = 0; // Reinicia el sonido
       moverSoundRef.play();
-
-     
 
       switch (event.key) {
         case "ArrowUp":
@@ -105,7 +103,7 @@ const Juego = () => {
           });
           break;
         case "Enter":
-          disparar();
+          haColisionado ? juegoNuevo() : disparar();
           break;
         default:
           break;
@@ -116,7 +114,7 @@ const Juego = () => {
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
-  }, [turno, bala]);
+  }, [turno, bala, haColisionado]);
 
   useEffect(() => {
     juegoNuevo();
